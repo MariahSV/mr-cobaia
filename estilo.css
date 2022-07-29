@@ -1,0 +1,103 @@
+/*----------------------------------------------------------------- MOBILE - PADRÃO */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/*------------------------------------- CORES */
+.blocao {
+    display: flex; 
+    flex-flow: row nowrap;
+}
+.bloquinho {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.cor1 {color: #75d19e;}
+.cor2 {color: #8297dd;}
+.cor3 {color: #a375d8;}
+
+.bgcor1 {background-color: #75d19e;}
+.bgcor2 {background-color: #8297dd;}
+.bgcor3 {background-color: #a375d8;}
+
+/*------------------------------------- TEXTOS*/
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+    font-family: "Roboto";
+    font-style: normal;
+    /* align-items: center;
+    text-align: center; */
+}
+
+.textog {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.textom {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.textop {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/*------------------------------------- CONTAINERS*/
+nav {}
+
+div {}
+
+a {}
+a:hover {}
+
+.container {}
+
+/*----------------------------------------------------------------- TABLET */
+@media screen and (min-width: 700px) {
+
+
+
+
+
+
+}
+
+/*----------------------------------------------------------------- PC */
+@media screen and (min-width: 900px) {
+
+
+
+
+}
