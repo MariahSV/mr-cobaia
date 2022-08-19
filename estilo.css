@@ -1,4 +1,6 @@
-/*----------------------------------------------------------------- MOBILE - PADRÃO */
+/* https://www.w3schools.com/tags/ref_attributes.asp */
+
+/*-------- MOBILE - PADRÃO */
 * {
     margin: 0;
     border: 0;
@@ -6,48 +8,40 @@
 }
 
 /*------------------------------------- CORES */
-.blocao {
+.container-amostras-cor {
     display: flex; 
     flex-flow: row nowrap;
 }
-.bloquinho {
+.quadrado-amostra-cor {
     width: 50px;
     height: 50px;
     border-radius: 15px;
 }
 
+/* COR 1 */
 .cor1 {color: #75d19e;}
-.cor2 {color: #8297dd;}
-.cor3 {color: #a375d8;}
-
 .bgcor1 {background-color: #75d19e;}
+
+/* COR 2 */
+.cor2 {color: #8297dd;}
 .bgcor2 {background-color: #8297dd;}
+
+/* COR 3 */
+.cor3 {color: #a375d8;}
 .bgcor3 {background-color: #a375d8;}
 
 /*------------------------------------- TEXTOS*/
-h1 {
+h1 {}
 
-}
+h2 {}
 
-h2 {
+h3 {}
 
-}
+h4 {}
 
-h3 {
+h5 {}
 
-}
-
-h4 {
-
-}
-
-h5 {
-
-}
-
-h6 {
-
-}
+h6 {}
 
 p {
     font-family: "Roboto";
@@ -56,19 +50,19 @@ p {
     text-align: center; */
 }
 
-.textog {
+.texto-g {
     font-weight: 500;
     font-size: 20px;
     line-height: 20px;
 }
 
-.textom {
+.texto-m {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
 }
 
-.textop {
+.texto-p {
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
@@ -85,19 +79,15 @@ a:hover {}
 .container {}
 
 /*----------------------------------------------------------------- TABLET */
-@media screen and (min-width: 700px) {
-
-
-
-
+@media screen and (min-width: 699px) {
+/* tags, casses e ids aqui */
 
 
 }
 
 /*----------------------------------------------------------------- PC */
-@media screen and (min-width: 900px) {
-
-
+@media screen and (min-width: 899px) {
+/* tags, casses e ids aqui */
 
 
 }

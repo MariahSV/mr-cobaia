@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+      
+    <title>Título da página</title>
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="Esboço de site">
+    <meta name="keywords" content="Art, Arte, Design, Designer, Web Design, Illustration, Ilustração">
+    <meta name="author" content="Mariah S. Vicente">
+    <meta http-equiv="refresh" content="600">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/x-icon" href="#">
+    
+    <style>
+    
+    </style>
+    
+</head>
+<body>
+
+    <form action="#" target="_blank" method="post" autocomplete="off"> <!-- action:código externo de processamento de dados; target: como a página se comporta ao acionar o botão;  -->
+        <fieldset> <!-- cria uma moldura ao redor dos campos -->
+          <legend>Título do bloco 1</legend> <!-- o atributo NAME é obrigatório em todo input -->
+          <label for="fname">Rótulo:</label><input type="text" id="fname" name="fname" value="Primeiro Nome" size="20" readonly>  <!-- label e input devem ter mesma informação em FOR e ID -->
+          </br><label for="pwd">Password:</label><input type="password" id="pwd" name="pwd" size="20">
+          </br><label for="id2">Rótulo:</label><input type="radio" id="id2" name="id2" value="id2">  <!-- RADIO BUTTONS devem ter o campo NAME igual entre os inputs correlacionados -->
+          </br><label for="id3">Rótulo:</label><input type="checkbox" id="id3" name="id3" value="id3">  <!-- em CHECKBOXES os campos devem ser correlacionados mas não iguais. -->
+        </fieldset>
+        <fieldset>
+          <legend>Título do bloco 2</legend>
+          </br><input type="button" onclick="alert('Hello World!')" value="Click Me!">
+          </br><label for="cars">Choose a car:</label>
+          </br><select id="cars" name="cars" size="2">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="fiat" selected>Fiat</option>
+              <option value="audi">Audi</option>
+            </select>
+          </br> <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+          </br><button type="button" onclick="alert('Hello World!')">Click Me!</button>
+          </br><input list="browsers">
+            </br><datalist id="browsers">
+              <option value="Internet Explorer">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+          </br><label for="favcolor">Select your favorite color:</label><input type="color" id="favcolor" name="favcolor">
+          </br><label for="birthday">Birthday:</label><input type="date" id="birthday" name="birthday" min="0" max="90">
+        </fieldset>
+        </br><input type="color" id="favcolor" name="favcolor">
+        </br><input type="date" id="datemin" name="datemin" min="1979-12-31">
+        </br><input type="date" id="datemax" name="datemax" max="2000-01-02">
+        </br><input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        </br><input type="email" id="email" name="email" size="20">
+        </br><input type="file"id="myfile" name="myfile" multiple>
+        </br><input type="hidden" id="custId" name="custId" value="3487">
+        </br><input type="image" width="48" height="48">
+        </br><input type="month" id="bdaymonth" name="bdaymonth">
+        </br><input type="number" id="quantity" name="quantity" min="1" max="10" step="2">
+        </br><input type="range" id="vol" name="vol" min="0" max="50">
+        </br><input type="search" id="gsearch" name="gsearch" size="20">
+        </br><input type="tel" id="phone" name="phone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" title="Modelo (00)00000-0000 tbm usado em texto, data, search, url, email e senha" placeholder="(00) 00000-0000" maxlength="11" size="20" required>
+        </br><input type="time" id="appt" name="appt">
+        </br><input type="url" id="homepage" name="homepage" size="20">
+        </br><input type="week" id="week" name="week">
+        
+        </br><input type="reset" value="Limpar">
+        </br><input type="submit" id="" name="" value="Enviar">
+      </form>
+
+
+</body>
+</html>
