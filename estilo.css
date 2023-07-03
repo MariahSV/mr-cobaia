@@ -50,6 +50,20 @@ p {
     text-align: center; */
 }
 
+b {}
+i {}
+.sublinhado { text-decoration: underline; }
+.tachado { text-decoration: line-through; }
+em {}
+small {}
+sub {}
+sup {}
+cite {}
+q {}
+blockquote {}
+abbr {}
+pre {}
+
 .texto-g {
     font-weight: 500;
     font-size: 20px;
@@ -69,14 +83,136 @@ p {
 }
 
 /*------------------------------------- CONTAINERS*/
+body {
+    background-color: #2f2f2f;
+}
+
+header {}
 nav {}
+section {}
+article {}
+aside {}
+footer {}
+details {}
+summary {}
+ol {}
+ol li {}
+ul {}
+ul li {}
+dl {}
+dl dt {}
+dl dd {}
+table {}
+table tr th {}
+table tr td {}
 
 div {}
 
-a {}
+a {text-decoration: none;}
+a:link {}
+a:visited {}
 a:hover {}
+a:active {} 
 
 .container {}
+
+/* ------------------ Formulário*/
+form {}
+form fieldset {}
+form fieldset legend {}
+form input {}
+form label {}
+input[type=text] {}
+input[type=password] {}
+input[type=radio] {}
+input[type=checkbox] {}
+input[type=button] {}
+input[type=] {}
+select {}
+select option {}
+textarea {}
+button[type=button] {}
+datalist {}
+datalist option {}
+input[type=color] {}
+input[type=date] {}
+input[type=datetime-local] {}
+input[type=email] {}
+input[type=file] {}
+input[type=hidden] {}
+input[type=image] {}
+input[type=month] {}
+input[type=number] {}
+input[type=range] {}
+input[type=search] {}
+input[type=tel] {}
+input[type=time] {}
+input[type=url] {}
+input[type=week] {}
+input[type=reset] {}
+input[type=submit] {}
+/* https://www.w3schools.com/css/css_form.asp */
+
+
+/* ------------------ Mídias*/
+
+figure {}
+
+figcaption {}
+
+img {}
+
+svg {}
+
+video {}
+
+audio {}
+
+embed {}
+
+object {}
+
+canvas {}
+
+iframe {}
+
+/* ----------------- DECORAÇÕES*/
+hr {
+    /*  CONFIGS PADRÕES
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: ;
+    height: ;
+    color: ;
+    background-color: ;
+    text-align: ;
+    */
+}
+
+/* ------------------------------ CLASSES */
+.modelo {}
+
+div.modelo {}
+
+/* ------------------------------ IDs */
+
+#modelo {}
+
+div#modelo {}
+
+/* --------------------------------------------------------------------------------- TABLET */
+/*
+@media not|only mediatype and (expressions) { CSS-Code; }  dentro de um único CSS
+ou
+<link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">    dentro do HTML, possibilita diversos CSSs
+*/
+
+
 
 /*----------------------------------------------------------------- TABLET */
 @media screen and (min-width: 699px) {
